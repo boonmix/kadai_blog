@@ -10,8 +10,8 @@
   <tr>
     <td><%= blog.title %></td>
     <td><%= blog.content %></td>
-    <td><%= link_to "ブログを編集する", edit_blog_path(blog.id), data:{ confirm:'本当に編集していいですか？'} %></td>
-    <td><%= link_to 'ブログを削除する', blog_path(blog.id), method: :delete, data:{ confirm:'本当に削除して良いですか？'} %></td>
+    <td><%= link_to "ブログを編集する!", edit_blog_path(blog.id), data:{ confirm:'本当に編集していいですか？'} %></td>
+    <td><%= link_to 'ブログを削除する!', blog_path(blog.id), method: :delete, data:{ confirm:'本当に削除して良いですか？'} %></td>
   </tr>
 <% end %>
 </table>
